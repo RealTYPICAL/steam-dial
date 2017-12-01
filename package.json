@@ -1,0 +1,14 @@
+{
+  "name": "steam-dial",
+  "version": "1.0.0",
+  "description": "steam dial",
+  "main": "out/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "typical",
+  "license": "ISC",
+  "dependencies": {
+    "steam-url-api": "^1.0.0"
+  }
+}
