@@ -9,6 +9,11 @@
   "author": "typical",
   "license": "ISC",
   "dependencies": {
-    "steam-url-api": "^1.0.0"
+    "peer-dial": "0.0.8",
+    "steam-url-api": "^1.0.3",
+    "ts-npm-module": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/peer-dial": "0.0.0"
   }
 }
