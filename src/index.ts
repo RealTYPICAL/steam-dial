@@ -7,4 +7,3 @@ import * as http from 'http';
 import * as cp from "child_process";
 import * as something from 'ts-npm-module';
 
-console.log('hello world');
