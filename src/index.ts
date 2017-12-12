@@ -2,7 +2,6 @@ import * as cp from "child_process";
 import * as express from "express";
 import * as http from "http";
 import * as peer from "peer-dial";
-import * as steam from "steam-url-api";
 import SteamImpl from "./steam";
 
 const PORT = 3000;

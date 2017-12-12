@@ -1,4 +1,6 @@
 import * as peer from "peer-dial";
+import * as steam from "steam-url-api";
+import { ISteam } from "steam-url-api";
 
 export default class SteamImpl implements peer.App {
     public name: string = "Game";
@@ -10,5 +12,10 @@ export default class SteamImpl implements peer.App {
         // Open steam game here.
         // opn(launchData);
         // TODO: This thing.
+        steam.createSteam((err, api: ISteam | undefined) => {
+            if (api) {
+                api.run(launchData);
+            }
+        });
     }
 }

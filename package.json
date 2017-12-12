@@ -10,8 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "peer-dial": "0.0.8",
-    "steam-url-api": "^1.0.4",
-    "ts-npm-module": "^1.0.5"
+    "steam-url-api": "^1.0.5"
   },
   "devDependencies": {
     "@types/peer-dial": "0.0.0",
