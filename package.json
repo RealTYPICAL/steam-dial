@@ -4,7 +4,8 @@
   "description": "steam dial",
   "main": "out/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "tslint src/**/*.ts"
   },
   "author": "typical",
   "license": "ISC",
@@ -14,6 +15,8 @@
   },
   "devDependencies": {
     "@types/peer-dial": "0.0.0",
-    "tslint": "^5.8.0"
+    "husky": "^0.14.3",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
   }
 }
